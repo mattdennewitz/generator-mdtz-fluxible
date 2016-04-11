@@ -5,7 +5,7 @@ class <%= name %> extends React.Component {
   render() {
     return (
       <div>
-        <Helmet title={<%= name %>} />
+        <Helmet title="<%= name %>" />
         <h1><%= name %></h1>
       </div>
     );
